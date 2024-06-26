@@ -6,9 +6,12 @@ import GlobalBallBeat from "../../layout/globalcomponent/GlobalBallBeat";
 const DashboardContents = () => {
   const { data: userData, isLoading } = useGetUsers();
 
+  if (isLoading) {
+    return <div>loading ....</div>;
+  }
+
   return (
     <>
-      {/* <GlobalBallBeat loading={isLoading} /> */}
       <User />
       <DashboardTable userData={userData} />
     </>

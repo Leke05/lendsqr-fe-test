@@ -112,7 +112,7 @@ export default GlobalTable;
 const TableContainer = styled.div`
   margin: 1.5rem;
   @media (max-width: 768px) {
-    margin: 1.5rem;
+    margin: 1rem;
     .MuiTableCell-root {
       display: block;
       width: 100%;
