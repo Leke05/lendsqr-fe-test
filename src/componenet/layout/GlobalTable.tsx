@@ -86,15 +86,14 @@ const GlobalTable: React.FC<GlobalTableProps> = ({
   });
 
   return (
-    <TableContainer>
-      <ThemeProvider theme={tableTheme}>
+    <ThemeProvider theme={tableTheme}>
+      <StyledTableWrapper>
         <MUIDataTable
           options={{
             elevation: 0,
             rowsPerPage: 20,
             rowsPerPageOptions: [20, 50, 100],
             selectableRows: "none",
-            responsive: "standard",
             ...options,
           }}
           title={title}
@@ -102,27 +101,43 @@ const GlobalTable: React.FC<GlobalTableProps> = ({
           columns={columns}
           components={components}
         />
-      </ThemeProvider>
-    </TableContainer>
+      </StyledTableWrapper>
+    </ThemeProvider>
   );
 };
 
 export default GlobalTable;
 
-const TableContainer = styled.div`
-  margin: 1.5rem;
+const StyledTableWrapper = styled.div`
+  margin-top: 1.5rem;
   @media (max-width: 768px) {
-    margin: 1rem;
-    .MuiTableCell-root {
+    margin-top: 1rem;
+    .MuiTable-root {
       display: block;
-      width: 100%;
-    }
-    .MuiTableRow-root {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 10px;
-      border: 1px solid #ddd;
-      border-radius: 8px;
+      .MuiTableBody-root {
+        display: flex;
+        flex-direction: column;
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 10px;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          .MuiTableCell-root {
+            display: flex;
+            justify-content: space-between;
+            /* padding: 5px 0; */
+            border-bottom: none;
+            &:before {
+              content: attr(data-label);
+              flex: 1;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+      .MuiTableCell-head {
+        display: none;
+      }
     }
   }
 `;
