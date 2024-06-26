@@ -120,6 +120,7 @@ export const Back = styled(GlobalBtn)<BackProps>`
 
   @media screen and (max-width: 768px) {
     display: block;
+    padding-inline: 0;
   }
 `;
 export const Fields = styled.fieldset`

@@ -114,11 +114,6 @@ const GlobalInput: FC<TextProps & ErrorProps> = ({
     >
       <div className="error-text">
         {labelText && <label htmlFor={inputName}>{labelText}</label>}
-        {error && (
-          <FieldError mt={mt} mb={mb} mr={mr} fs={fs} align={align}>
-            {errorMessage}
-          </FieldError>
-        )}
       </div>
       {descriptionText && (
         <p className="description text-muted">{descriptionText}</p>
@@ -148,7 +143,11 @@ const GlobalInput: FC<TextProps & ErrorProps> = ({
             {showPassword ? "Hide" : "Show"}
           </button>
         )}
-        {iconSrc && <img className="icon" src={iconSrc} alt="" />}
+        {error && (
+          <FieldError mt={mt} mb={mb} mr={mr} fs={fs} align={align}>
+            {errorMessage}
+          </FieldError>
+        )}
       </div>
     </InputGroup>
   );
@@ -159,10 +158,6 @@ export default GlobalInput;
 const InputGroup = styled.div<TextProps>`
   grid-column: ${({ fullWidth }) => (fullWidth ? "1 / -1" : "")};
   .error-text {
-    display: flex;
-    justify-content: space-between;
-    font-size: 16px;
-    font-weight: 200px;
     & label {
       display: flex;
       justify-content: flex-start;
@@ -258,4 +253,5 @@ export const FieldError = styled.div<ErrorProps>`
   color: red;
   font-size: ${({ fs }) => fs || "16px"};
   font-weight: 200px;
+  margin-top: 0;
 `;
