@@ -110,7 +110,6 @@ export const Back = styled(GlobalBtn)<BackProps>`
   inset: ${({ inset }) => (inset ? inset : "32px auto auto 32px")};
   background-color: transparent;
   width: max-content;
-  padding: 0.5rem;
   color: #a3a4ad;
   font-size: 16px;
 
