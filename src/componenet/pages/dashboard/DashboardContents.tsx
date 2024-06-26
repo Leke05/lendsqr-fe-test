@@ -1,13 +1,14 @@
 import User from "./User";
 import DashboardTable from "./DashboardTable";
 import { useGetUsers } from "../../../hooks/useQuery";
-import GlobalBallBeat from "../../layout/globalcomponent/GlobalBallBeat";
 
 const DashboardContents = () => {
   const { data: userData, isLoading } = useGetUsers();
 
   if (isLoading) {
-    return <div>loading ....</div>;
+    return (
+      <p style={{ textAlign: "center", color: "#39cdcc" }}>loading ....</p>
+    );
   }
 
   return (
