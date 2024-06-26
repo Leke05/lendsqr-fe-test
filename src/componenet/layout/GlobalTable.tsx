@@ -5,6 +5,7 @@ import MUIDataTable, {
 } from "mui-datatables";
 import { createTheme, ThemeProvider, Theme } from "@mui/material";
 import { Components } from "@mui/material/styles/components";
+import styled from "styled-components";
 
 interface CustomMUIDataTableOptions extends MUIDataTableOptions {
   displayToolbar?: boolean;
@@ -85,22 +86,41 @@ const GlobalTable: React.FC<GlobalTableProps> = ({
   });
 
   return (
-    <ThemeProvider theme={tableTheme}>
-      <MUIDataTable
-        options={{
-          elevation: 0,
-          rowsPerPage: 20,
-          rowsPerPageOptions: [20, 50, 100],
-          selectableRows: "none",
-          ...options,
-        }}
-        title={title}
-        data={data}
-        columns={columns}
-        components={components}
-      />
-    </ThemeProvider>
+    <TableContainer>
+      <ThemeProvider theme={tableTheme}>
+        <MUIDataTable
+          options={{
+            elevation: 0,
+            rowsPerPage: 20,
+            rowsPerPageOptions: [20, 50, 100],
+            selectableRows: "none",
+            responsive: "standard",
+            ...options,
+          }}
+          title={title}
+          data={data}
+          columns={columns}
+          components={components}
+        />
+      </ThemeProvider>
+    </TableContainer>
   );
 };
 
 export default GlobalTable;
+
+const TableContainer = styled.div`
+  @media (max-width: 768px) {
+    .MuiTableCell-root {
+      display: block;
+      width: 100%;
+    }
+    .MuiTableRow-root {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+  }
+`;
