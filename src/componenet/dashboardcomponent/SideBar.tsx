@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Link, NavLink } from "react-router-dom";
 import Collapsible from "react-collapsible";
-import { useGetUserDashboardMenu } from "../../hooks/useQuery";
 import { menuItems } from "../layout/utils/selectOption";
 import { FaAngleRight } from "react-icons/fa";
 
@@ -9,6 +8,7 @@ type SideBarProps = {
   showSideBar: boolean;
   closeSideBar: () => void;
 };
+
 const SideBar = ({ showSideBar, closeSideBar }: SideBarProps) => {
   const sidebarTemplate = menuItems.map((item) => {
     return !item.subMenu.length ? (
@@ -90,11 +90,13 @@ const StyledNav = styled.nav`
   }
   &::-webkit-scrollbar-track {
     background: #eee;
+    z-index: -1;
   }
   &::-webkit-scrollbar-thumb {
     background-color: var(--clr-primary);
     border-radius: 10px;
     border: 3px solid #eee;
+    z-index: -1;
   }
 
   /* Styling for list items */
@@ -105,6 +107,7 @@ const StyledNav = styled.nav`
     border-radius: 10px 0 0 10px;
     list-style-type: none;
     color: var(--clr-text);
+    z-index: 1;
 
     /* Collapsible items */
     &.collapsible {
@@ -136,6 +139,8 @@ const StyledNav = styled.nav`
       margin-block: 2px;
       color: var(--clr-text);
       font-size: 18px;
+      z-index: 1;
+      position: relative;
 
       /* Active link styles */
       &.active {
@@ -194,6 +199,7 @@ const StyledNav = styled.nav`
     text-decoration: none;
     color: var(--clr-text);
     cursor: pointer;
+    z-index: 1;
 
     i {
       width: 12%;

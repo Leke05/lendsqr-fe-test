@@ -12,7 +12,7 @@ const NavBar = () => {
       />
 
       <div className="image">
-        <img src="./images/land-image.svg" alt="home" />
+        <img src="./images/home-page.webp" alt="home" />
       </div>
     </NavContainer>
   );

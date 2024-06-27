@@ -1,7 +1,7 @@
 import React, { useState, ChangeEvent, useEffect } from "react";
 import styled from "styled-components";
 import { IoIosSearch } from "react-icons/io";
-import { UserData } from "../../type"; // Ensure this import matches the path to your UserData type definition
+import { UserData } from "../../type";
 
 const SearchBox = () => {
   const [searchInput, setSearchInput] = useState<string>("");

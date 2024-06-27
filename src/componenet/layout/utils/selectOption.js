@@ -246,7 +246,6 @@ export const menuItems = [
   {
     id: 3,
     menuItem: "CUSTOMERS",
-    menuIcon: <FaRegUser />,
     menuUrl: "/customer",
     subMenu: [
       {
@@ -302,7 +301,6 @@ export const menuItems = [
   {
     id: 4,
     menuItem: "BUSINESSES",
-    menuIcon: <TiBusinessCard />,
     menuUrl: "#",
     subMenu: [
       {
@@ -365,7 +363,6 @@ export const menuItems = [
   {
     id: 5,
     menuItem: "SETTINGS",
-    menuIcon: <CiSettings />,
     menuUrl: "#",
 
     subMenu: [

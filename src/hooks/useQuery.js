@@ -15,6 +15,7 @@ export const useGetUsers = (options) =>
     {
       select: (data) => {
         localStorage.setItem("userInfo", JSON.stringify(data.user));
+        console.log(data?.user);
         return data?.user;
       },
       ...options,
@@ -32,7 +33,8 @@ export const useGetUserStatus = (options) =>
     },
     {
       select: (data) => {
-        return data?.data;
+        console.log(data);
+        return data?.user;
       },
       ...options,
     }

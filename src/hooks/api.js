@@ -1,7 +1,7 @@
 export const lendsqr = {
   users: {
-    getUserInfo: "d8140ac4-1315-433b-8711-a30b3e386a3c",
-    getUserStatus: "ce3a5e48-366c-4f52-86ba-87f83ee247f3",
+    getUserInfo: "28adcd44-05fa-48ae-bca6-959b6776838c",
+    getUserStatus: "1c707f19-3a1a-4a1a-bd0e-09ffffdacca4",
     getUserSidebar: "2375f699-9fda-4b72-89ac-cc8efd61b114",
   },
 };
