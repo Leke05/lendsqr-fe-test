@@ -76,6 +76,11 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "gender": "Male",
         "bvn": "074735242781",
         "children": "1"
+         "rfq_code": "rdsgep263732",
+        "rating": 5,
+        "accountNumber": "25362892522",
+        "amount": 6000000000,
+        "bank": "Gtb",
       },
       "socialMedial": {
         "twitter_username": "@debbie",
@@ -110,7 +115,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Married",
         "gender": "Female",
         "bvn": "074735242782",
-        "children": "2"
+        "children": "2",
+         "rfq_code": "P746ep263732",
+        "rating": 5,
+        "accountNumber": "0474892522",
+        "amount": 90000000,
+        "bank": "UBA",
       },
       "socialMedial": {
         "twitter_username": "@user2",
@@ -145,7 +155,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242783",
-        "children": "3"
+        "children": "3",
+         "rfq_code": "09353ep263732",
+        "rating": 3,
+        "accountNumber": "8476492522",
+        "amount": 250000000,
+        "bank": "ECO Bank",
       },
       "socialMedial": {
         "twitter_username": "@Philipp Per",
@@ -180,7 +195,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242781",
-        "children": "1"
+        "children": "1",
+         "rfq_code": "3452io263732",
+        "rating": 4,
+        "accountNumber": "8489692522",
+        "amount": 250000000,
+        "bank": "Prvidous Bank",
       },
       "socialMedial": {
         "twitter_username": "@Adenike Kenneth",
@@ -215,7 +235,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Married",
         "gender": "Female",
         "bvn": "074735242782",
-        "children": "2"
+        "children": "2",
+         "rfq_code": "3452io263732",
+        "rating": 4,
+        "accountNumber": "8489692522",
+        "amount": 250000000,
+        "bank": "Prvidous Bank",
       },
       "socialMedial": {
         "twitter_username": "@Loveth Kelvin",
@@ -250,7 +275,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242783",
-        "children": "3"
+        "children": "3",
+        "rfq_code": "09353ep263732",
+        "rating": 3,
+        "accountNumber": "8476492522",
+        "amount": 250000000,
+        "bank": "ECO Bank",
       },
       "socialMedial": {
         "twitter_username": "@Jesuferanmi Lengend",
@@ -285,7 +315,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242781",
-        "children": "1"
+        "children": "1",
+        "rfq_code": "P746ep263732",
+        "rating": 5,
+        "accountNumber": "0474892522",
+        "amount": 90000000,
+        "bank": "UBA",
       },
       "socialMedial": {
         "twitter_username": "@edin",
@@ -320,7 +355,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Married",
         "gender": "Female",
         "bvn": "074735242782",
-        "children": "2"
+        "children": "2",
+         "rfq_code": "09353ep263732",
+        "rating": 3,
+        "accountNumber": "8476492522",
+        "amount": 250000000,
+        "bank": "ECO Bank",
       },
       "socialMedial": {
         "twitter_username": "@Sam_gideon",
@@ -355,7 +395,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242783",
-        "children": "3"
+        "children": "3",
+         "rfq_code": "09353ep263732",
+        "rating": 3,
+        "accountNumber": "8476492522",
+        "amount": 250000000,
+        "bank": "ECO Bank",
       },
       "socialMedial": {
         "twitter_username": "@ola_itunu",
@@ -390,7 +435,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242781",
-        "children": "1"
+        "children": "1",
+         "rfq_code": "09353ep263732",
+        "rating": 3,
+        "accountNumber": "8476492522",
+        "amount": 250000000,
+        "bank": "ECO Bank",
       },
       "socialMedial": {
         "twitter_username": "@Modupe Oluwa",
@@ -425,7 +475,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242783",
-        "children": "3"
+        "children": "3",
+         "rfq_code": "09353ep263732",
+        "rating": 3,
+        "accountNumber": "8476492522",
+        "amount": 250000000,
+        "bank": "ECO Bank",
       },
       "socialMedial": {
         "twitter_username": "@king",
@@ -460,7 +515,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242781",
-        "children": "1"
+        "children": "1",
+         "rfq_code": "P746ep263732",
+        "rating": 5,
+        "accountNumber": "0474892522",
+        "amount": 90000000,
+        "bank": "UBA",
       },
       "socialMedial": {
         "twitter_username": "@user1",
@@ -495,7 +555,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Married",
         "gender": "Female",
         "bvn": "074735242782",
-        "children": "2"
+        "children": "2",
+         "rfq_code": "P746ep263732",
+        "rating": 5,
+        "accountNumber": "0474892522",
+        "amount": 90000000,
+        "bank": "UBA",
       },
       "socialMedial": {
         "twitter_username": "@user2",
@@ -530,7 +595,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242783",
-        "children": "3"
+        "children": "3",
+         "rfq_code": "P746ep263732",
+        "rating": 5,
+        "accountNumber": "0474892522",
+        "amount": 90000000,
+        "bank": "UBA",
       },
       "socialMedial": {
         "twitter_username": "@user3",
@@ -565,7 +635,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242783",
-        "children": "3"
+        "children": "3",
+         "rfq_code": "P746ep263732",
+        "rating": 5,
+        "accountNumber": "0474892522",
+        "amount": 90000000,
+        "bank": "UBA",
       },
       "socialMedial": {
         "twitter_username": "@user3",
@@ -600,7 +675,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242781",
-        "children": "1"
+        "children": "1",
+         "rfq_code": "P746ep263732",
+        "rating": 5,
+        "accountNumber": "0474892522",
+        "amount": 90000000,
+        "bank": "UBA",
       },
       "socialMedial": {
         "twitter_username": "@debbie",
@@ -635,7 +715,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Married",
         "gender": "Female",
         "bvn": "074735242782",
-        "children": "2"
+        "children": "2",
+         "rfq_code": "P746ep263732",
+        "rating": 5,
+        "accountNumber": "0474892522",
+        "amount": 90000000,
+        "bank": "UBA",
       },
       "socialMedial": {
         "twitter_username": "@user2",
@@ -670,7 +755,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242783",
-        "children": "3"
+        "children": "3",
+         "rfq_code": "P746ep263732",
+        "rating": 5,
+        "accountNumber": "0474892522",
+        "amount": 90000000,
+        "bank": "UBA",
       },
       "socialMedial": {
         "twitter_username": "@Philipp Per",
@@ -705,7 +795,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242781",
-        "children": "1"
+        "children": "1",
+         "rfq_code": "P746ep263732",
+        "rating": 5,
+        "accountNumber": "0474892522",
+        "amount": 90000000,
+        "bank": "UBA",
       },
       "socialMedial": {
         "twitter_username": "@Adenike Kenneth",
@@ -740,7 +835,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Married",
         "gender": "Female",
         "bvn": "074735242782",
-        "children": "2"
+        "children": "2",
+         "rfq_code": "P746ep263732",
+        "rating": 5,
+        "accountNumber": "0474892522",
+        "amount": 90000000,
+        "bank": "UBA",
       },
       "socialMedial": {
         "twitter_username": "@Loveth Kelvin",
@@ -775,7 +875,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242783",
-        "children": "3"
+        "children": "3",
+         "rfq_code": "0093p263732",
+        "rating": 4,
+        "accountNumber": "0474892522",
+        "amount": 90000000,
+        "bank": "Access",
       },
       "socialMedial": {
         "twitter_username": "@Jesuferanmi Lengend",
@@ -810,7 +915,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242781",
-        "children": "1"
+        "children": "1",
+        "rfq_code": "0093p263732",
+        "rating": 4,
+        "accountNumber": "0474892522",
+        "amount": 90000000,
+        "bank": "Access",
       },
       "socialMedial": {
         "twitter_username": "@edin",
@@ -845,7 +955,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Married",
         "gender": "Female",
         "bvn": "074735242782",
-        "children": "2"
+        "children": "2",
+        "rfq_code": "93738263732",
+        "rating": 3,
+        "accountNumber": "0474892522",
+        "amount": 10000000,
+        "bank": "First Bank",
       },
       "socialMedial": {
         "twitter_username": "@Sam_gideon",
@@ -880,7 +995,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242783",
-        "children": "3"
+        "children": "3",
+         "rfq_code": "93738263732",
+        "rating": 3,
+        "accountNumber": "0474892522",
+        "amount": 10000000,
+        "bank": "First Bank",
       },
       "socialMedial": {
         "twitter_username": "@ola_itunu",
@@ -915,7 +1035,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242781",
-        "children": "1"
+        "children": "1",
+         "rfq_code": "93738263732",
+        "rating": 3,
+        "accountNumber": "0474892522",
+        "amount": 10000000,
+        "bank": "First Bank",
       },
       "socialMedial": {
         "twitter_username": "@Modupe Oluwa",
@@ -950,7 +1075,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242783",
-        "children": "3"
+        "children": "3",
+         "rfq_code": "93738263732",
+        "rating": 3,
+        "accountNumber": "0474892522",
+        "amount": 10000000,
+        "bank": "First Bank",
       },
       "socialMedial": {
         "twitter_username": "@king",
@@ -985,7 +1115,12 @@ fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242781",
-        "children": "1"
+        "children": "1",
+         "rfq_code": "93738263732",
+        "rating": 3,
+        "accountNumber": "0474892522",
+        "amount": 10000000,
+        "bank": "First Bank",
       },
       "socialMedial": {
         "twitter_username": "@user1",
