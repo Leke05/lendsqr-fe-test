@@ -12,7 +12,13 @@
         "maritalStatus": "Single",
         "gender": "Male",
         "bvn": "074735242781",
-        "children": "1"
+        "children": "1",
+        "rfq_code": "rdsgep263732",
+        "rating": 5,
+        "accountNumber": "25362892522",
+        "amount": 6000000000,
+        "bank": "Gtb",
+
       },
       "socialMedial": {
         "twitter_username": "@Adenike Kenneth",
